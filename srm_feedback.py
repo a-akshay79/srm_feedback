@@ -27,7 +27,7 @@ drop = browser.find_elements_by_class_name('search-selected-val')
 
 perf = ['Average','Excellent','Good','Poor','Very Good']
 
-for i in range(5):
+for _ in range(5):
     for i in drop:
         try:
             i.click()
